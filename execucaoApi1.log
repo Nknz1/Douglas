@@ -1,0 +1,36 @@
+2020-07-06 16:56:44.258195 - ------------------------------------------------- TESTE UNITARIOS -------------------------------------------------
+2020-07-06 16:56:44.258195 - TESTE 1
+2020-07-06 16:56:44.258195 - Iniciando TESTE...
+2020-07-06 16:56:44.258195 - ****TESTE SOMA - Enviar no campo ACAO o valor SOMA com os numeros 4,3,2,1 e esperar o retorno 10.0****
+2020-07-06 16:56:44.270188 - TESTE SOMA - Status code = 200 * Valor Esperado: 10.0 - Valor retornado : 10.0
+ 
+2020-07-06 16:56:44.271187 - TESTE 2
+2020-07-06 16:56:44.272187 - Iniciando TESTE...
+2020-07-06 16:56:44.272187 - ****TESTE SUBTRACAO - Enviar no campo ACAO o valor SUBTRAI com os numeros 4,3,2,1 e esperar o retorno -2.0****
+2020-07-06 16:56:44.277184 - TESTE SUBTRACAO - Status code = 200 * Valor Esperado: -2.0 - Valor retornado : -2.0
+ 
+2020-07-06 16:56:44.287177 - TESTE 3
+2020-07-06 16:56:44.287177 - Iniciando TESTE...
+2020-07-06 16:56:44.287177 - ****TESTE MEDIA - Enviar no campo ACAO o valor MEDIA com os numeros 2,4 e esperar o retorno 3.0****
+2020-07-06 16:56:44.292175 - TESTE MEDIA - Status code = 200 * Valor Esperado: 3.0 - Valor retornado : 3.0
+ 
+2020-07-06 16:56:44.293174 - TESTE 4
+2020-07-06 16:56:44.293174 - Iniciando TESTE...
+2020-07-06 16:56:44.293174 - ****TESTE TOTAL - Enviar no campo ACAO o valor MEDIA com os numeros 5,4,3,2,2 e esperar o retorno 5****
+2020-07-06 16:56:44.299170 - TESTE TOTAL - Status code = 200 * Valor Esperado: 5 - Valor retornado : 5
+ 
+2020-07-06 16:56:44.300170 - TESTE 5
+2020-07-06 16:56:44.300170 - Iniciando TESTE...
+2020-07-06 16:56:44.300170 - ****TESTE CAMPO ACAO VAZIO - Enviar no campo ACAO sem VALOR e esperar o retorno "Campo Obrigátorio, por favor preencha"****
+2020-07-06 16:56:44.308166 - (ERROR)TESTE ACAO VAZIO - A Api nao contem um json como retorno ainda !
+ 
+2020-07-06 16:56:44.309165 - TESTE 6
+2020-07-06 16:56:44.309165 - Iniciando TESTE...
+2020-07-06 16:56:44.309165 - ****TESTE CAMPO NUMEROS VAZIO - Enviar no campo NUMEROS sem VALOR e esperar o retorno "Campo Obrigátorio, por favor preencha"****
+2020-07-06 16:56:44.316160 - (ERROR)TESTE NUMEROS VAZIO - A Api nao contem um json como retorno ainda !
+ 
+2020-07-06 16:56:44.317160 - TESTE 7
+2020-07-06 16:56:44.317160 - Iniciando TESTE...
+2020-07-06 16:56:44.317160 - ****TESTE PARAM INEXISTENTE - Enviar no campo ACAO um VALOR ERRADO e esperar o retorno "OPERAÇÃO INVÁLIDA"****
+2020-07-06 16:56:44.323155 - (ERROR)TESTE PARAM INEXISTENTE - A Api não contém um json como retorno ainda !
+ 

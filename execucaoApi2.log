@@ -1,0 +1,43 @@
+2020-07-06 19:32:45.160554 - ------------------------------------------------- TESTE UNITARIOS -------------------------------------------------
+2020-07-06 19:32:45.172426 - TESTE 1
+2020-07-06 19:32:45.172426 - Iniciando TESTE...
+2020-07-06 19:32:45.172426 - ****TESTE SELECT POR ID - Retornar o usuario com ID 1 registrado no banco de dados****
+2020-07-06 19:32:45.374227 - TESTE SELECT POR ID - Status code = 200 * Json Retornado: {'nome': 'Everton', 'idade': 65, 'salario': 1000.0}
+ 
+2020-07-06 19:32:45.412426 - TESTE 2
+2020-07-06 19:32:45.412426 - Iniciando TESTE...
+2020-07-06 19:32:45.412426 - ****TESTE SELECT POR ID ERRADO - Retornar um json falando que o ID não existe****
+2020-07-06 19:32:45.426423 - TESTE SELECT POR ID ERRADO - Status code = 400 * Json Retornado: {'timestamp': '2020-07-06T22:32:45.424+0000', 'status': 400, 'error': 'Bad Request', 'message': 'Failed to convert value of type \'java.lang.String\' to required type \'int\'; nested exception is java.lang.NumberFormatException: For input string: "2222d"', 'path': '/id/2222d'}
+ 
+2020-07-06 19:32:45.428421 - TESTE 3
+2020-07-06 19:32:45.428421 - Iniciando TESTE...
+2020-07-06 19:32:45.428421 - ****TESTE SELECT ALL - Retornar todos os usuarios cadastrados no DB****
+2020-07-06 19:32:45.449408 - TESTE SELECT ALL - Status code = 200 * Json Retornado: [{'nome': 'Everton', 'idade': 65, 'salario': 1000.0}] *
+ 
+2020-07-06 19:32:45.450405 - TESTE 4
+2020-07-06 19:32:45.450405 - Iniciando TESTE...
+2020-07-06 19:32:45.450405 - ****TESTE SELECT POR NOME - Retornar o usuario com NOME registrado no banco de dados****
+2020-07-06 19:32:45.466973 - (ERROR)TESTE SELECT POR NOME - A Api nao contem um json como retorno ainda !
+ 
+ 
+2020-07-06 19:32:45.466973 - (ERROR)TESTE SELECT POR NOME - Status code = 404 * Json Retornado: 
+2020-07-06 19:32:45.468214 - TESTE 5
+2020-07-06 19:32:45.468214 - Iniciando TESTE...
+2020-07-06 19:32:45.468214 - ****TESTE SELECT POR NOME ERRADO - Retornar um json falando que o NOME não existe****
+2020-07-06 19:32:45.494262 - (ERROR)TESTE SELECT POR NOME ERRADO - A Api nao contem um json como retorno ainda !
+ 
+2020-07-06 19:32:45.496260 - TESTE 6
+2020-07-06 19:32:45.496260 - Iniciando TESTE...
+2020-07-06 19:32:45.496260 - ****TESTE SELECT POR SALARIO - Retornar o usuario com SALARIO registrado no banco de dados****
+2020-07-06 19:32:45.509252 - TESTE SELECT POR SALARIO - Status code = 200 * Json Retornado: [{'nome': 'Everton', 'idade': 65, 'salario': 1000.0}]
+ 
+2020-07-06 19:32:45.511088 - TESTE 7
+2020-07-06 19:32:45.511088 - Iniciando TESTE...
+2020-07-06 19:32:45.511088 - ****TESTE UPDATE POR ID - Faz o Update por ID no banco de dados****
+2020-07-06 19:32:45.688943 - TESTE UPDATE POR ID - Status code = 200 * Json Retornado: {'nome': 'Gaiel', 'idade': 55, 'salario': 1000.0}
+ 
+2020-07-06 19:32:45.690574 - TESTE 8
+2020-07-06 19:32:45.690574 - Iniciando TESTE...
+2020-07-06 19:32:45.690574 - ****TESTE UPDATE POR NOME - Faz o Update por NOME no banco de dados****
+2020-07-06 19:33:08.837540 - TESTE UPDATE POR NOME - Status code = 200 * Json Retornado: [{'nome': 'Everton', 'idade': 65, 'salario': 1000.0}]
+ 
